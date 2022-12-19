@@ -3,31 +3,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body class="has-navbar-fixed-top">
     <!-- Navbar Starts here -->
     <nav class="navbar is-black is-fixed-top" role="navigation"
     aria-label="main navigation" style="background-color: #c94436;">
-
-     <!-- Navbar Brand containing the Heading -->
-     <div class="navbar-brand">
-       <a id="logo1" class="navbar-item" href="index.html" style="background-color:#c94436;">
-         <h1 class="title" style="color: aliceblue;">Portfolio Website</h1>
-       </a>
-
-       <!-- Burger Icons for responsive navbar -->
-       <a role="button"
-         class="navbar-burger"
-         aria-label="menu"
-         aria-expanded="false"
-         data-target="navbarBasicExample"
-       >
-         <span aria-hidden="true"></span>
-         <span aria-hidden="true"></span>
-         <span aria-hidden="true"></span>
-       </a>
-     </div>
 
      <!-- Navbar Menu containing a list of items -->
      <div id="navbarBasicExample" class="navbar-menu">
@@ -39,7 +22,69 @@
          <a class="navbar-item" href="hobbies.html" style="color: aliceblue;"> Hobbies </a>
        </div>
      </div>
+
+      <!-- Navbar Brand containing the Heading -->
+     <div class="navbar-brand">
+        <a id="logo1" class="navbar-item" href="index.html" style="background-color:#c94436;">
+          <h1 class="title" style="color: aliceblue;">Portfolio Website</h1>
+        </a>
+     </div>
    </nav>  
    <!-- Navbar Ends here -->
+   <!-- Start of hobbies-->
+   <div class="container">
+    <br><br>
+    <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">
+            Component
+          </p>
+          <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.5q1.875 0 3.188-1.312Q16.5 14.875 16.5 13q0-1.875-1.312-3.188Q13.875 8.5 12 8.5q-1.875 0-3.188 1.312Q7.5 11.125 7.5 13q0 1.875 1.312 3.188Q10.125 17.5 12 17.5Zm0-1l-1.1-2.4L8.5 13l2.4-1.1L12 9.5l1.1 2.4l2.4 1.1l-2.4 1.1ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L9 3h6l1.85 2H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"/></svg>
+                <br>
+                Photography: One of my hobbies is photography, I find this hobby therapeutical since I get to capture things at the current moment.
+                I am not a master of photography yet but I yearn to get better at this so that in the near future I could do this more professionally.
+            </p>
+            <br>
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M7.97 16L5 19c-.33.3-.77.5-1.25.5A1.75 1.75 0 0 1 2 17.75v-.25l1-7.38A4.524 4.524 0 0 1 7.5 6h9c2.36 0 4.29 1.81 4.5 4.12l1 7.38v.25a1.75 1.75 0 0 1-1.75 1.75c-.48 0-.92-.2-1.25-.5l-2.97-3H7.97M7 8v2H5v1h2v2h1v-2h2v-1H8V8H7m9.5 0a.75.75 0 0 0-.75.75a.75.75 0 0 0 .75.75a.75.75 0 0 0 .75-.75a.75.75 0 0 0-.75-.75m-1.75 1.75a.75.75 0 0 0-.75.75a.75.75 0 0 0 .75.75a.75.75 0 0 0 .75-.75a.75.75 0 0 0-.75-.75m3.5 0a.75.75 0 0 0-.75.75a.75.75 0 0 0 .75.75a.75.75 0 0 0 .75-.75a.75.75 0 0 0-.75-.75M16.5 11.5a.75.75 0 0 0-.75.75a.75.75 0 0 0 .75.75a.75.75 0 0 0 .75-.75a.75.75 0 0 0-.75-.75Z"/></svg>
+                <br>
+                Video Games: This hobby is something that I am fond of since I use this as a stress reliever. This is video games I got into this at an early age
+                due to the fact that I was surrounded by computers growing up.
+            </p>
+            <br>
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M14 9.9V8.2q.825-.35 1.688-.525Q16.55 7.5 17.5 7.5q.65 0 1.275.1q.625.1 1.225.25v1.6q-.6-.225-1.212-.337Q18.175 9 17.5 9q-.95 0-1.825.238Q14.8 9.475 14 9.9Zm0 5.5v-1.7q.825-.35 1.688-.525Q16.55 13 17.5 13q.65 0 1.275.1q.625.1 1.225.25v1.6q-.6-.225-1.212-.337q-.613-.113-1.288-.113q-.95 0-1.825.225T14 15.4Zm0-2.75v-1.7q.825-.35 1.688-.525q.862-.175 1.812-.175q.65 0 1.275.1q.625.1 1.225.25v1.6q-.6-.225-1.212-.337q-.613-.113-1.288-.113q-.95 0-1.825.238q-.875.237-1.675.662Zm-1 4.4q1.1-.525 2.213-.788Q16.325 16 17.5 16q.9 0 1.763.15q.862.15 1.737.45V6.7q-.825-.35-1.712-.525Q18.4 6 17.5 6q-1.175 0-2.325.3q-1.15.3-2.175.9ZM12 20q-1.2-.95-2.6-1.475Q8 18 6.5 18q-1.325 0-2.775.5T1 20.05V5.55Q2.1 4.8 3.588 4.4Q5.075 4 6.5 4q1.45 0 2.838.375Q10.725 4.75 12 5.5q1.275-.75 2.663-1.125Q16.05 4 17.5 4q1.425 0 2.913.4Q21.9 4.8 23 5.55v14.5Q21.75 19 20.288 18.5Q18.825 18 17.5 18q-1.5 0-2.9.525T12 20Z"/></svg>
+                <br>
+                Reading: I would consider this hobby as one of my favorites since I get to learn new things and it helps me in understanding things that I want to know. 
+            </p>
+            <br>
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M9 21v-3H2v-2h7q.825 0 1.413.587Q11 17.175 11 18v3Zm4 0v-3q0-.825.588-1.413Q14.175 16 15 16h7v2h-7v3Zm-7-6q-1.25 0-2.125-.875T3 12V8h18v4q0 1.25-.875 2.125T18 15ZM3 7V5h6V4q0-.425.288-.713Q9.575 3 10 3h4q.425 0 .713.287Q15 3.575 15 4v1h6v2Z"/></svg>
+                <br>
+                Cooking: This hobby is more of a need than a hobby since I am the one who is in charge with cooking in our house. But nonetheless whenever I cook I find it really enjoyable.
+            </p>
+        </div>
+      </div>
+   </div>
+</div>
+   <!-- End of hobbies-->
+   <!-- Start of Footer-->
+   <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        This Website is created for the sole purpose of the submission of activities in the subject Event Driven Programming
+      </p>
+    </div>
+  </footer>
+   <!-- End of Footer-->
 </body>
 </html>
