@@ -1,0 +1,22 @@
+.top{
+    background-color: #c94436;
+    color: aliceblue;
+}
+.logo{
+    background-color: #c94436;
+}
+.quote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: aliceblue;
+}
+.quotename{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: aliceblue;
+}
+.quotetitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: aliceblue;
+}

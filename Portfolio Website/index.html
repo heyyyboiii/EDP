@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body class="has-navbar-fixed-top">
+    <!-- Navbar Starts here -->
+    <nav class="navbar is-black is-fixed-top" role="navigation"
+    aria-label="main navigation" style="background-color: #c94436;">
+
+     <!-- Navbar Brand containing the Heading -->
+     <div class="navbar-brand">
+       <a id="logo1" class="navbar-item" href="index.html" style="background-color:#c94436;">
+         <h1 class="title" style="color: aliceblue;">Portfolio Website</h1>
+       </a>
+
+       <!-- Burger Icons for responsive navbar -->
+       <a role="button"
+         class="navbar-burger"
+         aria-label="menu"
+         aria-expanded="false"
+         data-target="navbarBasicExample"
+       >
+         <span aria-hidden="true"></span>
+         <span aria-hidden="true"></span>
+         <span aria-hidden="true"></span>
+       </a>
+     </div>
+
+     <!-- Navbar Menu containing a list of items -->
+     <div id="navbarBasicExample" class="navbar-menu">
+       <div class="navbar-start">
+         <a class="navbar-item" href="index.html" style="color: aliceblue;"> Home </a>
+
+         <a class="navbar-item" href="about.html" style="color: aliceblue;"> About </a>
+
+         <a class="navbar-item" href="hobbies.html" style="color: aliceblue;"> Hobbies </a>
+       </div>
+     </div>
+   </nav>  
+   <!-- Navbar Ends here -->
+   <!-- Start of Container Content-->
+   <div class="container">
+    <div class="card" style="background-color: #c94436; color: aliceblue;">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-96x96">
+                <img class="is-rounded" src="img/marc.jpeg" alt="Marcus Aurelius">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="quote">“Waste no more time arguing about what a good man should be. Be one.”</p>
+              <p class="quotename">Emperor Marcus Aurelius</p>
+              <p class="quotetitle">Roman Emperor</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-image">
+          <figure class="image is-256x256">
+            <img class="is-rounded" src="img/Merc_Inc.png" alt="Logo">
+          </figure>
+        </div>
+      </div>
+   </div>
+   <!-- End of Container Content-->
+   <!-- Start of Footer-->
+   <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        This Website is created for the sole purpose of the submission of activities in the subject Event Driven Programming
+      </p>
+    </div>
+  </footer>
+   <!-- End of Footer-->
+</body>
+</html>
